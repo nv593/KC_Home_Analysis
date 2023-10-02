@@ -169,7 +169,7 @@ The recommendations are designed to guide the real estate investment company in 
 - **Data Enrichment**: Continue to collect and incorporate relevant data to enhance the model's predictive accuracy. This may include additional property features, economic indicators, and market dynamics.
 
 
-Please view full analysis in [Jupyter Notebook](https://github.com/nv593/KC_Home_Analysis) or [Presentation](https://github.com/nv593/KC_Home_Analysis/blob/main/KC%20home%20analysis.pdf)
+Please view full analysis in [Jupyter Notebook]([https://github.com/nv593/KC_Home_Analysis](https://github.com/nv593/KC_Home_Analysis/blob/main/student.ipynb)) or [Presentation](https://github.com/nv593/KC_Home_Analysis/blob/main/KC%20home%20analysis.pdf)
 
 ### Repository Structure
 
