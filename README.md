@@ -126,7 +126,7 @@ Our predictive model, Model 4, demonstrates strong performance in estimating hom
 #### Key Findings
 Key features that significantly impact home prices include:
 
-1. **Square Footage**: For each additional square foot in the total square footage of a property, the estimated sale price increases by approximately $20,000. So, a 1,000 square foot increase would add about $20,000 to the estimated sale price.
+1. **Square Footage**: For each additional square foot in the total square footage of a property, the estimated sale price increases by approximately $200,000. So, a 1,000 square foot increase would add about $20,000 to the estimated sale price.
 
 2. **View Quality**: Each improvement in view quality contributes roughly $55,000 to the estimated sale price. For instance, upgrading from a lower-quality view to a better one could increase the estimated sale price by around $55,000.
 
