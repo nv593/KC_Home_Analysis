@@ -173,7 +173,7 @@ Please view full analysis in [Jupyter Notebook](https://github.com/nv593/KC_Home
 
 ### Repository Structure
 
-├── Images
+├── Visulizations
 ├── Data
 ├── KC_Home_Analysis.pdf
 ├── README.md
