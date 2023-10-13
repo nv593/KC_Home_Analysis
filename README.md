@@ -19,38 +19,46 @@ Data preparation and exploration are fundamental steps in any data analysis or m
 ### Visualizations
 
 **Correlation Heatmap**
+
 ![Visualization 1](./visualizations/visualization1.png)
 *We find that features like 'sqft_living' and 'grade' have strong positive correlations with home prices.*
 
 
 **Log-Transformed Price Distribution**
+
 ![Visualization 4](./visualizations/visualization4.png)
 *The log transformation makes our price data more suitable for analysis. We can see a smoother distribution, making it easier to predict prices.*
 
 **Waterfront vs. Non-Waterfront Properties**
+
 ![Visualization 10](./visualizations/visualization10.png)
 *Waterfront properties tend to have higher log-transformed prices compared to non-waterfront ones.*
 
 **Distribution of Log Prices by Heat Source**
+
 ![Visualization 13](./visualizations/visualization13.png)
 *Gas' heat sources tend to have different price distributions compared to those with 'Electricity.'*
 
 **Grade-wise Log Price Distributions**
+
 ![Visualization 14](./visualizations/visualization14.png)
 *Higher grades are associated with higher log-transformed prices.*
 
 **View-wise Log Price Distributions**
+
 ![Visualization 15](./visualizations/visualization15.png)
 *Properties with better views tend to have higher log-transformed prices.*
 
 **Log Price Distribution by Condition**
+
 ![Visualization 17](./visualizations/visualization17.png)
 *Very Good' condition properties have a different price distribution compared to 'Average' condition ones.*
 
 **Sqft Total vs. Price with Regression Line**
 choosen basline model
+
 ![Visualization 20](./visualizations/sqft_total.png)
-*As 'log_price' increases, homes generally tend to have larger total square footages. The regression line represents this positive relationship, helping us understand how these two factors are connected.*
+*As price increases, homes generally tend to have larger total square footages. The regression line represents this positive relationship, helping us understand how these two factors are connected.*
 
 ### Final Regression Model
 
