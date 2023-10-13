@@ -17,11 +17,10 @@ Data preparation and exploration are fundamental steps in any data analysis or m
 - In our data exploration phase, we delved into the dataset to uncover insights. Here's what we found:
 
 ### Visualizations
-In our data analysis, I created various visualizations to help illustrate key insights from our dataset. These visualizations provide valuable information to address our business problem of estimating home prices effectively.
 
 **Correlation Heatmap**
 ![Visualization 1](./visualizations/visualization1.png)
-*We find that features like 'sqft_living' and 'grade' have strong positive correlations with home prices. This means larger living spaces and higher grades tend to lead to higher prices, which is crucial information for our business problem.*
+*We find that features like 'sqft_living' and 'grade' have strong positive correlations with home prices.*
 
 
 **Log-Transformed Price Distribution**
@@ -50,10 +49,8 @@ In our data analysis, I created various visualizations to help illustrate key in
 
 **Sqft Total vs. Price with Regression Line**
 choosen basline model
-
 ![Visualization 20](./visualizations/sqft_total.png)
-
-*This scatterplot illustrates the relationship between the logarithmically transformed price ('log_price') and the total square footage of homes ('sqft_total'). It reveals that as 'log_price' increases, homes generally tend to have larger total square footages. The regression line represents this positive relationship, helping us understand how these two factors are connected. Each purple point represents an individual home's 'log_price' and 'sqft_total.' This information is valuable for assessing how square footage impacts home prices.*
+*As 'log_price' increases, homes generally tend to have larger total square footages. The regression line represents this positive relationship, helping us understand how these two factors are connected.*
 
 ### Final Regression Model
 
@@ -61,33 +58,27 @@ choosen basline model
 
 ![Final Model](./visualizations/final_model.png)
 
-*This is a mathematical representation of the factors that influence home prices in King County. This model serves as a valuable tool for making informed real estate investment decisions.*
-
 ### Model Performance and Key Features
 
-Our predictive model, Model 4, demonstrates strong performance in estimating home prices within King County. With an R-squared value of approximately 0.473, it explains nearly 47% of the variance in home prices. Additionally, the adjusted R-squared value remains stable after accounting for the number of predictors, indicating the reliability of the model's explanatory power. The F-statistic of 1688 further confirms the overall statistical significance of the model.
+Our predictive model, Model 4, demonstrates strong performance in estimating home prices within King County. R-squared value of approximately 0.473, it explains nearly 47% of the variance in home prices. Additionally indicating the reliability of the model's explanatory power. The F-statistic of 1688 further confirms the overall statistical significance of the model.
 
 #### Key Findings
 Key features that significantly impact home prices include:
 
-1. **Square Footage**: For each additional square foot in the total square footage of a property, the estimated sale price increases by approximately $200,000. So, a 1,000 square foot increase would add about $20,000 to the estimated sale price.
+1. **Square Footage**: Each additional square foot in property size increases the estimated sale price by approximately $200 or every 1000 sft for $200,000.
 
-2. **View Quality**: Each improvement in view quality contributes roughly $55,000 to the estimated sale price. For instance, upgrading from a lower-quality view to a better one could increase the estimated sale price by around $55,000.
+2. **View Quality**: Improving view quality adds roughly $55,000 to the estimated sale price.
 
-3. **Heat Source**: Homes with a gas heating source have an estimated increase of approximately $17,000 in their sale price compared to homes with other heating sources.
+3. **Heat Source**: Gas heating sources contribute an estimated increase of approximately $17,000 in sale price.
 
-4. **Waterfront Properties**: Properties with a waterfront location have an estimated premium of approximately $267,000 in their sale price compared to non-waterfront properties.
+4. **Waterfront Properties**: These have an estimated premium of approximately $267,000 compared to non-waterfront properties.
 
-5. **Condition Above Average**: Homes with above-average conditions have an estimated sale price that is approximately $138,000 higher than properties with lower condition ratings.
+5. **Condition Above Average**: Homes in above-average condition sell for approximately $138,000 more.
 
-6. **Grade Categories**: The grade of a property significantly impacts its sale price. For example, properties with a grade of 13.0 have an estimated sale price that is approximately $1,369,000 higher than properties with lower-grade ratings.
-
-These findings offer valuable insights in King County. Taking these factors into account can help in making informed decisions regarding property investments, renovations, and pricing strategies.
-
+6. **Grade Categories**:  Higher-grade properties sell for substantially more, with grade 13.0 properties having an estimated price increase of approximately $1,369,000.
 
 ## Conclusion
-
-After thorough data analysis and model development, our recommendations for the real estate investment company are as follows:
+Recommendations for the real estate investment company:
 
 1. **Prioritize Waterfront Properties:** If you're in the market for a dreamy waterfront property, go for it! Our analysis shows they tend to be worth the investment.
 
@@ -101,11 +92,9 @@ After thorough data analysis and model development, our recommendations for the 
 
 6. **Grades:** Higher-grade properties often come with higher prices. They're worth considering for their potential to yield better returns.
 
-**Investment Decisions:** For our real estate investment company, consider focusing on properties with waterfront locations, superior views, and above-average conditions, as these factors are associated with higher prices. Additionally, properties with more bathrooms and larger square footage are likely to yield favorable returns.
+**Investment Decisions:** Focus on waterfront locations, superior views, and above-average conditions. Properties with more bathrooms and larger square footage are also promising.
 
-**Pricing Strategy:** When pricing homes for sale, take into account the impact of square footage, bathroom count, view quality, condition, and heat source. These features can guide pricing strategies to optimize returns.
-
-The recommendations are designed to guide the real estate investment company in making strategic decisions that maximize returns and meet the needs of potential homebuyers and sellers. We also emphasize the importance of a well-informed pricing strategy based on these insights.
+**Pricing Strategy:** Consider square footage, bathroom count, view quality, condition, and heat source when pricing homes to optimize returns..
 
 
 ## Next Steps
