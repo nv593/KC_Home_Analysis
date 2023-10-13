@@ -6,7 +6,7 @@ Nancy Lopez
 This project data analysis will help identify what features in homes help increase the sale price of the home. The project includeds data cleaning, data exploratory, and model improvement. All leading to a final reccomendation based on the final model for our stockholders.
 
 ## Business Problem
-A real estate investment company wants to develop a predictive model to estimate home prices in King County using KC Homes dataset. The company aims to provide accurate price estimates for potential homebuyers and sellers, as well as for their own investment decisions. They have historical data on various attributes of homes, such as location, size, condition, number of bedrooms, bathrooms, and more. This well help us answer what features would are good to consider in purchasing a home.
+The real estate investment company's primary goal is to maximize the sale prices of properties in King County. To achieve this, we aim to provide a predictive model that helps the company make informed decisions on property selling. Our analysis will focus on identifying key property features that significantly impact sale prices, enabling the company to set optimal pricing strategies. Such as property size, waterfront listings, view quality, heating source, condition, and grade.
 
 ## Data
 Data used for this analysis is from the King County House Sales dataset is a dataset that contains information about real estate transactions in King County, Washington. It includes a variety of features or columns, such as property characteristics (square footage, number of bedrooms and bathrooms), house condition, grade, view, and information about the sale price.
@@ -20,88 +20,33 @@ Data preparation and exploration are fundamental steps in any data analysis or m
 In our data analysis, I created various visualizations to help illustrate key insights from our dataset. These visualizations provide valuable information to address our business problem of estimating home prices effectively.
 
 **Correlation Heatmap**
-This heatmap reveals how different features correlate with each other. High positive (near 1) or negative (near -1) correlations indicate strong relationships. We use this to understand which features might be most important in predicting home prices.
-
 ![Visualization 1](./visualizations/visualization1.png)
 *We find that features like 'sqft_living' and 'grade' have strong positive correlations with home prices. This means larger living spaces and higher grades tend to lead to higher prices, which is crucial information for our business problem.*
 
-**Scatterplot with Regression Line**
-This scatterplot with a regression line shows us the relationship between the size of a house ('sqft_living') and its price. The line helps us understand how price changes with size.
-
-![Visualization 2](./visualizations/visualization2.png)
-*As we can see, there's a clear upward trend. Larger houses generally come with higher prices, a significant insight for both buyers and sellers.*
-
-**Box Plot of Square Footage**
-This box plot displays the distribution of living space sizes in our dataset. It helps us spot any outliers and get a sense of the most common size ranges.
-
-![Visualization 3](./visualizations/visualization3.png)
-*Most properties have living spaces falling within a certain range, with a few outliers. This insight helps us understand the sizes of homes.*
 
 **Log-Transformed Price Distribution**
-After applying a log transformation to prices, we observe how prices are distributed in a more normalized way.
-
 ![Visualization 4](./visualizations/visualization4.png)
 *The log transformation makes our price data more suitable for analysis. We can see a smoother distribution, making it easier to predict prices.*
 
-**Pair Plot Matrix**
-This matrix of scatterplots lets us visualize the relationships between key features and the log-transformed price.
-
-![Visualization 5](./visualizations/visualization5.png)
-*It helps us identify which features might be good predictors of price. For example, 'sqft_living' and 'sqft_above' show positive linear relationships with price.*
-
-**Box Plots for Selected Features**
-These box plots show the distribution of selected features. They help us understand the spread and variability of these features.
-
-![Visualization 6](./visualizations/visualization6.png)
-*We can visually assess how features like 'bedrooms' and 'bathrooms' vary, which is vital for understanding buyer preferences.*
-
-**Regression Plot (Log Price vs. Floors)**
-This plot illustrates how the number of floors affects the log-transformed price. It helps us see if more floors lead to higher prices.
-
-![Visualization 7](./visualizations/visualization7.png)
-*The upward trend suggests that homes with more floors tend to have higher log-transformed prices. This is crucial for understanding the value of additional floors.*
-
-**Regression Plot (Log Price vs. Bedrooms)**
-This plot shows how the number of bedrooms influences the log-transformed price.
-
-![Visualization 8](./visualizations/visualization8.png)
-*It's evident that more bedrooms often correlate with higher log-transformed prices. This information is valuable for buyers and sellers.*
-
 **Waterfront vs. Non-Waterfront Properties**
-This combined distribution plot compares the log-transformed prices of waterfront and non-waterfront properties.
-
 ![Visualization 10](./visualizations/visualization10.png)
-*It helps us understand that waterfront properties tend to have higher log-transformed prices compared to non-waterfront ones.*
-
-**Distribution of Log Prices for Waterfront Properties**
-This distribution plot focuses on the log-transformed prices of waterfront properties.
-
-![Visualization 11](./visualizations/visualization11.png)
-*It provides more detail on the distribution of log prices for waterfront properties, highlighting their premium pricing.*
+*Waterfront properties tend to have higher log-transformed prices compared to non-waterfront ones.*
 
 **Distribution of Log Prices by Heat Source**
-This distribution plot compares log prices for properties with different heat sources.
-
 ![Visualization 13](./visualizations/visualization13.png)
-*Insights: It reveals that properties with 'Gas' heat sources, for example, tend to have different price distributions compared to those with 'Electricity.' This can inform investment decisions.*
+*Gas' heat sources tend to have different price distributions compared to those with 'Electricity.'*
 
 **Grade-wise Log Price Distributions**
-A series of distribution plots display log price distributions for different property grades (2 to 13).
-
 ![Visualization 14](./visualizations/visualization14.png)
-*We can observe how property grades impact log prices. Higher grades are associated with higher log-transformed prices.*
+*Higher grades are associated with higher log-transformed prices.*
 
 **View-wise Log Price Distributions**
-These distribution plots illustrate log price distributions for different view values (0 to 4).
-
 ![Visualization 15](./visualizations/visualization15.png)
-*It helps us assess how views affect property prices. Properties with better views tend to have higher log-transformed prices.*
+*Properties with better views tend to have higher log-transformed prices.*
 
 **Log Price Distribution by Condition**
-This pair of distribution plots shows log price distributions for 'Average' and 'Very Good' property conditions.
-
 ![Visualization 17](./visualizations/visualization17.png)
-*It helps us compare log prices for different property conditions. 'Very Good' condition properties have a different price distribution compared to 'Average' condition ones.*
+*Very Good' condition properties have a different price distribution compared to 'Average' condition ones.*
 
 **Sqft Total vs. Price with Regression Line**
 choosen basline model
@@ -111,7 +56,6 @@ choosen basline model
 *This scatterplot illustrates the relationship between the logarithmically transformed price ('log_price') and the total square footage of homes ('sqft_total'). It reveals that as 'log_price' increases, homes generally tend to have larger total square footages. The regression line represents this positive relationship, helping us understand how these two factors are connected. Each purple point represents an individual home's 'log_price' and 'sqft_total.' This information is valuable for assessing how square footage impacts home prices.*
 
 ### Final Regression Model
-After an extensive process of data exploration and analysis, we arrived at our final predictive model. This model is designed to provide accurate estimates of home prices in King County.
 
 **Final Model**
 
