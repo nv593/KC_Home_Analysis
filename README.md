@@ -23,37 +23,6 @@ Data preparation and exploration are fundamental steps in any data analysis or m
 ![Visualization 1](./visualizations/visualization1.png)
 *We find that features like 'sqft_living' and 'grade' have strong positive correlations with home prices.*
 
-
-**Log-Transformed Price Distribution**
-
-![Visualization 4](./visualizations/visualization4.png)
-*The log transformation makes our price data more suitable for analysis. We can see a smoother distribution, making it easier to predict prices.*
-
-**Waterfront vs. Non-Waterfront Properties**
-
-![Visualization 10](./visualizations/visualization10.png)
-*Waterfront properties tend to have higher log-transformed prices compared to non-waterfront ones.*
-
-**Distribution of Log Prices by Heat Source**
-
-![Visualization 13](./visualizations/visualization13.png)
-*Gas' heat sources tend to have different price distributions compared to those with 'Electricity.'*
-
-**Grade-wise Log Price Distributions**
-
-![Visualization 14](./visualizations/visualization14.png)
-*Higher grades are associated with higher log-transformed prices.*
-
-**View-wise Log Price Distributions**
-
-![Visualization 15](./visualizations/visualization15.png)
-*Properties with better views tend to have higher log-transformed prices.*
-
-**Log Price Distribution by Condition**
-
-![Visualization 17](./visualizations/visualization17.png)
-*Very Good' condition properties have a different price distribution compared to 'Average' condition ones.*
-
 **Sqft Total vs. Price with Regression Line**
 choosen basline model
 
@@ -100,9 +69,8 @@ Recommendations for the real estate investment company:
 
 6. **Grades:** Higher-grade properties often come with higher prices. They're worth considering for their potential to yield better returns.
 
-**Investment Decisions:** Focus on waterfront locations, superior views, and above-average conditions. Properties with more bathrooms and larger square footage are also promising.
 
-**Pricing Strategy:** Consider square footage, bathroom count, view quality, condition, and heat source when pricing homes to optimize returns..
+**Pricing Strategy:** Consider square footage, view quality, condition, waterfront locations, superior views, and heat source when pricing homes to optimize returns.
 
 
 ## Next Steps
