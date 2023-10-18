@@ -16,7 +16,7 @@ Data preparation and exploration are fundamental steps in any data analysis or m
 
 - In our data exploration phase, we delved into the dataset to uncover insights. Here's what we found:
 
-## Findings
+### Findings
 
 **Correlation Heatmap**
 
@@ -36,7 +36,7 @@ choosen basline model
 
 ![Final Model](./visualizations/final_model.png)
 
-### Model Performance and Key Features
+#### Model Performance and Key Features
 
 Our predictive model, Model 4, demonstrates strong performance in estimating home prices within King County. R-squared value of approximately 0.473, it explains nearly 47% of the variance in home prices. Additionally indicating the reliability of the model's explanatory power. The F-statistic of 1688 further confirms the overall statistical significance of the model.
 
