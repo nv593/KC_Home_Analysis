@@ -19,12 +19,14 @@ Data preparation and exploration are fundamental steps in any data analysis or m
 **Correlation Heatmap**
 
 ![Visualization 1](./visualizations/visualization1.png)
+
 *We find that features like 'sqft_living' and 'grade' have strong positive correlations with home prices.*
 
 **Sqft Total vs. Price with Regression Line**
 choosen basline model
 
 ![Visualization 20](./visualizations/sqft_total.png)
+
 *As price increases, homes generally tend to have larger total square footages. The regression line represents this positive relationship, helping us understand how these two factors are connected.*
 
 ## Results
