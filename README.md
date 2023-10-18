@@ -16,8 +16,6 @@ Data preparation and exploration are fundamental steps in any data analysis or m
 
 - In our data exploration phase, we delved into the dataset to uncover insights. Here's what we found:
 
-### Findings
-
 **Correlation Heatmap**
 
 ![Visualization 1](./visualizations/visualization1.png)
