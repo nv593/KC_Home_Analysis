@@ -12,11 +12,11 @@ The real estate investment company's primary goal is to maximize the sale prices
 Data used for this analysis is from the King County House Sales dataset is a dataset that contains information about real estate transactions in King County, Washington. It includes a variety of features or columns, such as property characteristics (square footage, number of bedrooms and bathrooms), house condition, grade, view, and information about the sale price.
 
 ## Data Cleaning and Exploration 
-Data preparation and exploration are fundamental steps in any data analysis or machine learning project. This phase involves getting the raw data ready for analysis, understanding its structure, and gaining insights before building models or drawing conclusions.
+Data preparation and exploration are fundamental steps in any data analysis or machine learning project. This phase involves getting the cleaning raw data ready for analysis, understanding its structure, and gaining insights before building models or drawing conclusions.
 
 - In our data exploration phase, we delved into the dataset to uncover insights. Here's what we found:
 
-### Visualizations
+### Findings
 
 **Correlation Heatmap**
 
@@ -29,7 +29,8 @@ choosen basline model
 ![Visualization 20](./visualizations/sqft_total.png)
 *As price increases, homes generally tend to have larger total square footages. The regression line represents this positive relationship, helping us understand how these two factors are connected.*
 
-### Final Regression Model
+### Results
+
 
 **Final Model**
 
